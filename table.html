@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>Table</title> 
+	<style>
+	
+	table {
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 1px solid black;
+	border-collapse: collapse;}
+	
+	caption {caption-side: bottom; 
+	font-style: italic;
+	padding-top: 8px}
+	
+	table td {
+	border: 1px dotted gray;
+	padding: 5px;}
+	
+	table th {
+	border: 1px dotted gray;
+	padding: 5px;
+	background-color: #cc6600;}
+	
+	.center {
+	text-align: center;}
+	
+	.right {
+	text-align: right;}
+	
+	.cellcolor {
+	background-color: #fcba7a;}
+	
+	td table th {
+	background-color: white;}
+	</style>
+</head> 
+
+<body> 
+	<table>
+		<caption>Table 1-1: Cities Jeff Has Visited</caption>
+		<tr>
+			<th>City</th>
+			<th>Date</th>
+			<th>Temperature</th>
+			<th>Altitude</th>
+			<th>Population</th>
+			<th>Diner Rating</th>
+		</tr>
+		<tr>
+			<td>Spokane, WA</td>
+			<td class="center">July 15<sup>th</sup></td>
+			<td class="center">75&deg;</td>
+			<td class="right">1,204 ft</td>
+			<td class="right">29,686</td>
+			<td class="center">4/5</td>
+		</tr>
+		<tr class="cellcolor">
+			<td>Idaho Falls, ID</td>
+			<td class="center">May 25<sup>th</sup></td>
+			<td class="center">74&deg;</td>
+			<td class="right">5,312 ft</td>
+			<td class="right">50</td>
+			<td class="center">3/5</td>
+		</tr>
+		<tr>
+			<td>Park City, UT</td>
+			<td class="center">August 10<sup>th</sup></td>
+			<td class="center">91&deg;</td>
+			<td class="right">4,226 ft</td>
+			<td class="right">41,173</td>
+			<td class="center">4/5</td>
+		</tr>
+		<tr class="cellcolor">
+			<td>Denver, CO</td>
+			<td class="center">April 23<sup>rd</sup></td>
+			<td class="center">102&deg;</td>
+			<td class="right">4,780 ft</td>
+			<td class="right">265</td>
+			<td class="center">3/5</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Radium Springs, NM</td>
+			<td class="center">June 9<sup>th</sup></td>
+			<td class="center">93&deg;</td>
+			<td class="right" rowspan="2">4,242 ft</td>
+			<td class="right" rowspan="2">7,289</td>
+			<td class="center">5/5</td>
+		</tr>
+		<tr>
+			<td class="center">August 27<sup>th</sup></td>
+			<td class="center">98&deg;</td>
+			<td class="center"><table>
+				<tr><th>Lisa</th><td>5/5</td></tr>
+				<tr><th>Jeff</th><td>4/5</td></tr>
+			</table></td>
+		</tr>
+		<tr class="cellcolor">
+			<td>Tuscon, AZ</td>
+			<td class="center">September 18<sup>th</sup></td>
+			<td class="center">104&deg;</td>
+			<td class="right">860 ft</td>
+			<td class="right">480</td>
+			<td class="center">3/5</td>
+		</tr>
+
+	</table>
+</body> 
+</html> 
+
